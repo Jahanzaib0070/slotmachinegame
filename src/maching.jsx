@@ -1,0 +1,13 @@
+import React from "react";
+
+const Matching = (props) => {
+    return(
+        <div className="slot_inner">
+            <h1> {props.x} {props.y} {props.z} </h1>
+            <h1>Matching</h1>
+            <hr />
+        </div>
+    )
+}
+
+export default Matching;
